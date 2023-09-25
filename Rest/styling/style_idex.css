@@ -94,32 +94,3 @@ body{
     margin: 10px auto 10px;
 }
 
-.swiper-slide{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper_img{
-    object-fit: cover;
-    background-size: cover;
-    height: 70vh;
-    width: 100%;
-}
-
-.swiper-wrapper{
-    background: rgba(21, 21, 21, .3);
-}
-
-.swiper::after{
-    content: '';
-    background: rgba(21, 21, 21, .3);
-    position: absolute;
-    z-index: 5;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-}
