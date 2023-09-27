@@ -7,42 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Rest/styling/style.css">
+    <link rel="stylesheet" href="Rest/styling/style_idex.css">
+    <link rel="stylesheet" href="Rest/styling/book_style.css">
 </head>
 <body>
-    <style>
-        body{
-            background: url(Rest/img_body/background.jpg);
-        }
-    </style>
     <div class="wrapper">
         <header class="header header-main">
             <div class="container_logo-list">
-                <div class="logo">
-                    <a href="index.html" class="header-logo">
-                        <i class="fa-solid fa-chart-line fa-beat">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
-                                <path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/>
-                            </svg>
-                        </i>
-                        <span class="logo_text">Мотивация на каждый день</span>
-                    </a>       
-                </div>
-                <div class="date_oneline">
-                    <script>
-                        function fulltime () {
-                        var time=new Date();
-                        document.clock.full.value=time.toLocaleString();
-                        setTimeout('fulltime()',500)
-                        }
-                    </script>
-                        <form name="clock">
-                            <input size="14" style="font-size: 25px;" name="full">
-                        </form>
-                    <script>
-                         fulltime ();
-                    </script>
-                </div>
                 <nav class="interact_menu">
                     <ul class="menu-list">
                         <hr>
@@ -56,6 +27,16 @@
                         <hr>
                     </ul>
                 </nav>
+            </div>
+            <div class="logo">
+                <a href="index.html" class="header-logo">
+                    <i class="fa-solid fa-chart-line fa-beat">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z" fill="#fff"/>
+                        </svg>
+                    </i>
+                    <span class="logo_text">Мотивация на каждый день</span>
+                </a>       
             </div>
         </header>
         <main class="main_menu">
@@ -71,14 +52,16 @@
                                 Когда земля уходит из-под ног и привычная реальность начинает стремительно и неконтролируемо меняться, девиз Виктора Франкла — «Тот, кто знает, «зачем» жить, преодолеет почти любое «как» — действительно очень поддерживает.
                             </p> 
                             <p class="book_descript">
-                                В истории психотерапии Франкл остался как создатель так называемой логотерапии (исцеления смыслом). В лагере он учил людей объективно смотреть на происходящее, держаться за жизнь, не поддаваться мыслям о смерти, не опускать руки. Ощущение бессмысленности жизни — самое опасное для человека состояние, считал Франкл. Он помогал людям искать рациональное зерно во всех проявлениях жизни, даже самых страшных, потому что именно это понимание дает импульс жить.
+                                В истории психотерапии Франкл остался как создатель так называемой логотерапии (исцеления смыслом). В лагере он учил людей объективно смотреть на происходящее, держаться за жизнь, не поддаваться мыслям о смерти, не опускать руки. Ощущение бессмысленности жизни — самое опасное для человека состояние, считал Франкл.
                             </p>
                         </div>
                         <hr>
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book1.png" alt="">
+                            <a href="https://www.litres.ru/book/viktor-frankl/skazat-zhizni-da-psiholog-v-konclagere-147113/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book1.png" alt="">
+                            </a>
                         </div>
-                    </div>                    
+                    </div>
                     <div class="book_menu">
                         <div class="book_name">
                             <h1 class="book_name-int">
@@ -89,12 +72,15 @@
                                 Три поведенческие стратегии «Бей — беги — замри» в период кризиса определяют действия не только человека, но и компании.
                             </p> 
                             <p class="book_descript">
-                                В кризис для бизнеса опаснее всего замереть от ужаса и бездействовать. Адизес предлагает перестать обвинять во всем внешние силы и нападать друг на друга, а вместо этого посмотреть на процессы внутри компании и вычленить структурные проблемы. Четкая методика Адизеса по выходу из кризиса помогает собраться и действовать в период турбулентности. И надо сказать, что книга помогает не только в бизнесе, если рассматривать как компанию собственную семью.
+                                В кризис для бизнеса опаснее всего замереть от ужаса и бездействовать. Адизес предлагает перестать обвинять во всем внешние силы и нападать друг на друга, а вместо этого посмотреть на процессы внутри компании и вычленить структурные проблемы. Четкая методика Адизеса по выходу из кризиса помогает собраться и действовать в период турбулентности. 
                             </p>
                         </div>
                         <hr>
+                        
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book2.png" alt="">
+                            <a href="https://www.litres.ru/book/ichak-adizes/upravlenie-v-usloviyah-krizisa-kak-vyzhit-i-stat-silnee-65448171/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book2.png" alt="">
+                            </a>
                         </div>
                     </div>                    
                     <div class="book_menu">
@@ -112,7 +98,9 @@
                         </div>
                         <hr>
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book3.png" alt="">
+                            <a href="https://www.litres.ru/book/ekaterina-sigitova/idealnyy-shtorm-kak-perezhit-psihologicheskiy-krizis-63607453/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book3.png" alt="">
+                            </a>
                         </div>
                     </div>                    
                     <div class="book_menu">
@@ -130,7 +118,9 @@
                         </div>
                         <hr>
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book4.png" alt="">
+                            <a href="https://www.litres.ru/book/herris-rass/kogda-zhizn-sbivaet-s-nog-preodolevaem-bol-i-spravlyaemsya-s-k-67562487/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book4.png" alt="">
+                            </a>
                         </div>
                     </div>                    
                     <div class="book_menu">
@@ -148,9 +138,11 @@
                         </div>
                         <hr>
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book5.png" alt="">
+                            <a href="https://www.litres.ru/book/barbara-sher/mechtat-ne-vredno-kak-poluchit-to-chego-deystvitelno-hochesh-8205373/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book5.png" alt="">
+                            </a>
                         </div>
-                    </div>                    
+                    </div>
                     <div class="book_menu">
                         <div class="book_name">
                             <h1 class="book_name-int">
@@ -166,7 +158,9 @@
                         </div>
                         <hr>
                         <div class="book_img">
-                            <img class="book_img-flex" src="Rest/book_img/img-book6.png" alt="">
+                            <a href="https://www.litres.ru/book/ayn-rend/atlant-raspravil-plechi-4236675/" target="_blank">
+                                <img class="book_img-flex" src="Rest/book_img/img-book6.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
