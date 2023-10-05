@@ -329,4 +329,9 @@
 
 .content{
     margin-top: 50px;
+    background-color: #ade4ef;
+    height: auto;
+    border-radius: 50px;
+    height: 30%;
+    cursor: pointer;
 }

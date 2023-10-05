@@ -32,6 +32,11 @@
   border-radius: 50px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   box-decoration-break: clone;
+  transition: 0.5s;
+}
+
+.book_img-flex:hover{
+  transform: scale(1.2);
 }
 
 .book_menu{
