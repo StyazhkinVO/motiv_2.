@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="Rest/styling/movie_style.css">
 </head>
 <body>
-
-    Slideable menu swipper
-    
     <div class="wrapper">
         <header class="header header-main">
             <div class="container_logo-list">
@@ -45,96 +42,43 @@
         <main class="main_menu">
             <section class="top">
                 <div class="container">
-                    <div class="main_movie">
-                        <div class="main_movie-int">
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    В погоне за счастьем
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 2006
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie1.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    В основу ленты легла история Криса Гарднера, отца-одиночки, который изо всех сил пытался изменить свою жизнь к лучшему ради того, чтобы обеспечить своему сыну Кристоферу счастливое детство. По сюжету после ухода жены и неудачного вложения в разработку медицинского сканера, который измеряет плотность костей, мужчина не может оплачивать жилье и вместе с ребенком оказывается на улице. Тогда он решает устроиться неоплачиваемым стажером в брокерскую компанию, чтобы стать биржевым маклером. 
-                                </p>
-                            </div>                       
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    Король говорит!
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 2010
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie2.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    Действие фильма происходит в первой половине XX века. В основу исторической драмы «Король говорит!» легла история британского принца Альберта (Колин Ферт), который вот-вот должен взойти на престол как король Георг 6. Мужчина не готовился к тому, чтобы стать монархом, поскольку трон должен был занять его брат — Эдуард 8. Однако он отрекся от престола, чтобы жениться на разведенной американке Уоллис Симпсон.
-                                </p>
+                    <div class="movie_content">
+                        <div class="content">
+                            <input id="toggle" type="checkbox">
+
+                            <label class="toggle-container" for="toggle">
+                                <span class="button button-toggle"></span>
+                            </label>
+                            <nav class="append-buttons">
+                                <li class="menu-item button1">В погоне за счастьем</li>
+                                <li class="menu-item button2">Король говорит!</li>
+                                <li class="menu-item button3">Октябрьское небо</li>
+                                <li class="menu-item button4">Человек, который изменил все</li>
+                                <li class="menu-item button5">Преодоление</li>
+                                <li class="menu-item button6">Дикая</li>
+                            </nav>
+                        </div>
+                        <div class="slider">
+                            <div class="slider-line">
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img1.png" alt="">
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img2.png" alt="">
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img3.png" alt="">
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img4.png" alt="">
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img5.png" alt="">
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slider-item-img" src="Rest/movie_img/movie-img6.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="main_movie-int">
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    Октябрьское небо
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 1999
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie3.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    «Октябрьское небо» — драма режиссера Джо Джонстона с Джейком Джилленхолом, Крисом Купером, Крисом Оуэном и Лорой Дерн в главных ролях, в основу которой легла автобиографическая книга Хомера Хикэма Rocket Boys. Действие фильма происходит в США в 1950-е годы. Главный герой картины — 17-летний парень по имени Хомер, который живет в маленьком шахтерском городке Колвуд. Долгое время он думал, что его, как и отца, ждет только одно будущее — работа на местной угольной шахте. Однако все меняется в октябре 1957 года, когда Советский Союз выводит на орбиту первый в мире искусственный спутник Земли — «Спутник-1».
-                                </p>
-                            </div>                       
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    Человек, который изменил все
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 2011
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie4.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    По сюжету после череды неудачных матчей и ухода своих главных игроков генеральный менеджер Oakland Athletics Билли Бин отчаянно хочет собрать новую и по-настоящему конкурентоспособную команду. Однако ему не хватает средств, чтобы пригласить в клуб хороших и дорогостоящих игроков. Тогда главный герой решает дать шанс менее известным игрокам без особых достижений и обращается к экономисту и выпускнику Йельского университета Питеру Бренду. Тот предлагает менеджеру собрать список новых спортсменов с помощью новаторской схемы расчета полезности игроков, в основе которой лежат математические расчеты показателей личной статистики бейсболистов.
-                                </p>
-                            </div>       
-                        </div>
-                        <div class="main_movie-int">
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    Преодоление
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 2006
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie5.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    Главный герой, роль которого исполнил Марк Уолберг — 30-летний бармен по имени Винс Папале, который недавно потерял работу учителя на замену. Когда жена Винса уходит от него, оставив записку, в которой говорится, что он никогда ничего не добьется, мужчина решает попытать удачу и принять участие в открытых пробах, чтобы попасть в профессиональную команду по американскому футболу. Там его сначала приглашают в тренировочный лагерь, а затем Папале все-таки попадает в команду
-                                </p>
-                            </div>                       
-                            <div class="main_movie_list">
-                                <h1 class="movie_name">
-                                    Дикая
-                                </h1>
-                                <p class="data_exit">
-                                   <strong>Год :</strong> 2014
-                                </p>
-                                <hr>
-                                <img class="movie_flex" src="Rest/movie_img/img-movie6.jpg" alt="Фильм">
-                                <hr>
-                                <p class="movie_descript">
-                                    В июне 1995 года, несмотря на отсутствие какого-либо опыта, Шерил решила в одиночку отправиться в пеший поход на 1770 километров по части Тихоокеанской туристической тропы, чтобы пережить недавний развод и смерть матери. Во время путешествия женщина размышляет о своем детстве и причинах, и-за которых она решилась пойти в поход. Героиня вспоминает о своей матери Бобби, чья смерть от рака стала причиной ее глубокой депрессии
-                                </p>
-                            </div>       
                         </div>
                     </div>
                 </div>
@@ -228,5 +172,6 @@
             </div>
         </footer>
     </div>
+    <script src="Rest/styling/js/content_script.js"></script>
 </body>
 </html>

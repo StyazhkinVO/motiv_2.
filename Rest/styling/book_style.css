@@ -1,65 +1,65 @@
 
 .logo{
-    background-color: #151515;
-    color: #fff;
-    padding: 8px;
-    font-size: 25px;
-  }
-  .header-logo{
-    display: flex;
-    justify-content: start;
-    gap: 15px;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
+  background-color: #151515;
+  color: #fff;
+  padding: 8px;
+  font-size: 25px;
+}
+.header-logo{
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.logo_text{
+  margin-top: 8px;
+}
   
-  .logo_text{
-    margin-top: 8px;
-  }
-  
-  .fa-solid{
-    font-size: 35px;
-  }
+.fa-solid{
+  font-size: 35px;
+}
 
 .book_img-flex{
-    width: 200px;
-    height: 300px;
-    margin-top: 20px;
-    margin-left: 5px;
-    font-size: 18px;
-    padding: 10px;
-    background-color: #FFF;
-    border-radius: 50px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    box-decoration-break: clone;
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-decoration-break: clone;
 }
 
 .book_menu{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: #359253;
-    margin-top: 30px;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    box-decoration-break: clone;
-    border-color: #b0fcd6;
-    color: #FFF;
-    border-style: solid;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #31946b;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-decoration-break: clone;
+  border-color: #b0fcd6;
+  color: #fff;
+  border-style: solid;
+  padding: 10px;
 }
 
 .book_name-int{
-    margin: 10px 10px auto;
+  margin: 10px 10px auto;
 }
 
 .book_descript{
-    margin: 25px 10px auto;
-    background-color: #9cf3a0;
-    padding: 10px;
-    border-radius: 10px;
-    color: #121212;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 25px 10px auto;
+  background-color: #cbfece;
+  padding: 20px;
+  border-radius: 50px;
+  color: #121212;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
